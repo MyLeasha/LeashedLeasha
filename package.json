@@ -1,0 +1,12 @@
+{
+	"name" : "LeashedLeasha",
+	"Version" : "1.0.0",
+	"scripts" : {
+		"start" : "node server.js"
+	},
+	"dependencies" : {
+		"Express" : "4.13.3"
+	},
+	"author" : "Leasha Goosen",
+	"license" : "ISC"
+}
