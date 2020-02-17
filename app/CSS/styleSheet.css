@@ -1,483 +1,252 @@
-html{
-    min-width: 42rem;
-}
 body {
     margin: 0;
+    font-family: sans-serif;
+}
+#headertitle {
+    font-family: sans-serif;
+    font-size: 50%;
+    background-color: #000;
+    background-size: cover;
+    color: white;
+    margin-top: -10;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    font-family: sans-serif;
-    text-align: center;
-    overflow-x: hidden;   
-
+    height: 3rem;
 }
-
+#headertitle h1{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    padding-left: 2rem;
+}
 .topnav {
-    background-color: white;
+    background-color: #222;
     overflow: hidden;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    color: black;
-    resize: horizontal;
-}
-
-.topnav ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-
-
-}
-
-
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 10px 25px;
-  font-size: 17px;
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-    margin-top: 1;
-    margin-left: 0.1rem;
-    margin-right: 0.11rem;
-}
-
-#navimg {
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    float: left;
-    text-decoration: none;
-    background-color: white;
-    
-}
-
-#navimgsize {
-    width: 8.5rem;
-}
-
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #a90057;
-  color: white;
-}
-
-#seperationline {
-    background-color: #a90057;
-    width: 100rem;
-    height: 0.25em;
-    padding-top: 0;
-    margin: -1.7rem;
-    margin-bottom: 1rem;
-    resize: horizontal;
-    position: absolute;
-    top: 4.2rem;
-
-}
-
-
-.bookcontainer {
-    padding: 1rem;
-    margin: 2rem auto;
-    width: 85%;
-    height: 16rem;
-    resize: horizontal;
-    background-color: white;
-    box-shadow: 0px 0px 8px 1px #777;
-    position: relative;
-    min-width: 35rem;
-    margin-top: -1rem;
-
-}
-
-#newbook{
-    width: 150px;
-    height: 200px;
-    background-image: url(Images/Sarah%20Stone%20HGT%203d%20book.png);
-    padding: 2rem;
-    float: left;
-    background-size: contain;
-    position: absolute;
-    right: 58%;
-}
-
-#bookheader {
-    margin-top: 3.1rem;
-    float: right;
-    text-align: left;
-    position: absolute;
-    left: 43%;
-    padding-right: 1rem;
-    
-}
-#bookheader H1 {
-    padding: 0 0 0.5rem 0;
-    margin: 0;
-    font-size: 1.5rem;
-    color: #a90057;
-}
-
-#bookheader H2 {
-    padding: 0;
-    margin: 0;
-    font-size: 1.1rem;
-}
-
-#bookheader section {
-    padding: 0 0 0.5rem 0;
-    margin: 0;
-    font-size: 0.7em;
-}
-
-#bookheader p {
-    padding: 0 1rem 1rem 0;
-    margin: 0;
-    font-size: 0.9em;
-    max-width: 30rem;
-}
-
-.homewelcome{
-    padding: 1% 2% 1% 2%;
-    margin-top: -9rem;
-    margin: -2% 0 -5% 0;
-    background-color: white;
-    background-image: url(Images/autumn-is-coming-concept-young-girl-laying-on-grass-reading-a-book-JHWKWY.jpg);
-    height: 15rem;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 18rem;
-    background-repeat: no-repeat;
-    
-
-}
-
-.homewelcome p{
-    text-align: left;
-    display: inline-block;
-    margin: 0;
-    font-size: 3rem;
-    color:beige;
-    position: absolute;
-    left: 5rem;
-    top: 8rem;
-    font-family: ;
-    
-}
-
-.linkscontainer{
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-    margin-bottom: 1.4rem;
-
-
-}
-
-#blogcontainer {
-    position: relative;
-    margin: 0rem 0.5rem;
-    width: 12rem;
-    height: 12rem;
-    display: inline-block;
-    background-image: url(Images/Blog%20block.jpg); 
-    background-size: contain;
-    box-shadow: 0px 0px 6px 1px #222;
-    
-}
-
-#librarycontainer {
-    position: relative;
-    width: 12rem;
-    height: 12rem;
-    display: inline-block;
-    background-image: url(Images/library%20block.jpg);
-    margin: 0rem 0.5rem;
-    background-size: contain;
-    box-shadow: 0px 0px 6px 1px #222;
-}
-
-#contactcontainer {
-    position: relative;
-    width: 12rem;
-    height: 12rem;
-    display: inline-block;
-    background-image: url(Images/contact%20me%20block.jpg);
-    margin: 0rem 0.5rem;
-    background-size: contain;
-    box-shadow: 0px 0px 6px 1px #222;
-        
-}
-
-#contactcontainer p{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-48%, -47%);
     color: white;
-    font-size: 1.1rem;
-    width: 100%;
-    padding-top: 5.5rem;
-    padding-bottom: 5.5rem;
-    
-}
-
-#librarycontainer p{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-48%, -47%);
-    color: white;
-    font-size: 1.1rem;
-    width: 100%;
-    padding-top: 5.5rem;
-    padding-bottom: 5.5rem;
-}
-
-#blogcontainer p{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-48%, -47%);
-    color: white;
-    font-size: 1.1rem;
-    width: 100%;
-    padding-top: 5.5rem;
-    padding-bottom: 5.5rem;
-
-}
-
-#segmentline {
-    background-color: #a90057;
-    width: 100%;
-    height: 0.15em;
-    padding-top: 0rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    position: relative;
-
-    
-}
-
-#segmentline div {
-    background-image: url(Images/Banner.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
+    padding: 0;
+    padding-left: 2rem;
     height: 2rem;
-    left: 44%;
-
 }
-
-#contactcontainer:hover {
-    background-image: url(Images/contact%20me%20block%20-%20hover.jpg);
-
-    
+.topnav a{
+    color: white;
+    margin: auto;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
-
-#librarycontainer:hover{
-    background-image: url(Images/library%20block%20-%20hover.jpg);
+.topnav a:hover{
+    background-color: #444;
 }
-
-#blogcontainer:hover{
-    background-image: url(Images/Blog%20block%20-%20hover.jpg);
+.topnav a.active{
+    background-color: gainsboro;
+    color: #222;
 }
-
-#blogcontainer p:hover{
- color:black;
-}
-
-#librarycontainer p:hover{
- color:black;
-}
-
-#contactcontainer p:hover{
- color:black;
-}
-
-.comingsooncontainer {
-    padding: 1rem;
-    margin: 2rem auto;
-    width: 85%;
-    height: 16rem;
-    resize: horizontal;
-    background-image: url(Images/Coming%20soon%20cover.jpg);
+.pageheading {
+    background-image: url(/Images/rabbit-palm-hand-snatch-53966.jpg);
+    height: 11rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0px 0px 8px 1px #222;
-    position: relative;
-    min-width: 35rem;
-    margin-top: -1rem;
-
 }
 
-#comingsoon{
+.headingcenter{
+    text-align: center;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-48%, -47%);
-    color: black;
+    top: 11rem;
+    left: 7rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: auto;
+}
+.headingcenter q{
+    font-size: 190%;
+}
+.headingcenter p{
+    font-size: 90%;
+    padding-left: 10rem;
+    margin-top: 0rem;
 
 }
-
-#comingsoon H1{
-    font-size: 1.9rem;
-    padding: 0;
-    margin: 1rem;
-    margin-top: 3rem;
-    
-}
-
-#comingsoon Section{
-    font-size: 1.2rem;
-    padding: 0;
-    margin: 0;
-    
-}
-
-#comingsoon H2{
-    font-size: 1.9rem;
-    padding: 0;
-    margin: 0;
-    
-}
-
-.libraryimgcontainer{
-    padding: 1rem;
-    margin: 2rem auto;
-    width: 85%;
-    height: 16rem;
-    resize: horizontal;
-    background-image: url(Images/Library%20cover.jpg);
-    background-size: 50rem 18rem;;
-    background-repeat: no-repeat;
-    box-shadow: 0px 0px 8px 1px #222;
-    position: relative;
-    min-width: 35rem;
-    margin-top: -1rem;
-    background-color: white;
-    
-}
-
-#booklibrary{
-    width: 150px;
-    height: 200px;
-    background-image: url(Images/Sarah%20Stone%20HGT%203d%20book.png);
+.whitecentertext img{
+    height: 8rem;
+    margin: auto;
+    display: block;
+    flex: auto;
     padding: 2rem;
-    float: left;
-    background-size: contain;
-    position: absolute;
-    background-repeat: no-repeat;
-    transform: translate(0%, 10%);
+}
+.whitecentertext p{
+    width: 30rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+    flex: auto;
+    padding 2rem;
+    padding-bottom: 2rem;
+}
+.skillbars p {
+    text-align: center;
+    color: #999;
+    font-size: 0.7rem;
+    margin-bottom: 0.1;
+    padding-bottom: 0;
+}
+.skillbars{
+    width: 60%;
+    margin: auto;
+}
+.skillsdark{
+    background-color: #222;
+    padding-bottom: 3rem;
+}
+.skillsdark h1{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: aliceblue;
 }
 
-#librarybookheader {
-    margin-top: 3.1rem;
-    float: left;
-    text-align: left;
-    position: absolute;
-    left: 15rem;
-    padding-right: 1rem;
+.skillcontainer {
+    background-color: #444;
+    height: 0.6rem;
 
+}
+.skill {
+    text-align: right;
+    padding-right: 1rem;
+    line-height: 40px;
+    color: aliceblue;
+    height: 0.6rem;
+}
+.md {
+    width: 90%; 
+    background-color: #E89C50;
+}
+.threed {
+    width: 85%; 
+    background-color: #E89C50;
+}
+.gd {
+    width: 80%; 
+    background-color: #E89C50;
+}
+.html {
+    width: 80%; 
+    background-color: #E89C50;
+}
+.css {
+    width: 70%; 
+    background-color: #E89C50;
+}
+.java {
+    width: 40%; 
+    background-color: #E89C50;
+}
+.whereivebeen h1{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #333;
+}
+.timeline {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.timeline::after {
+    content:'';
+    position: absolute;
+    width: 3px;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container {
+    padding: 10px;
+    position: relative;
+    width: 50%;
+}
+.container::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px ;
+    right: 12px;
+    background-color: #E89C50;
+    border: 2px solid white;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
     
 }
-#librarybookheader H1 {
-    padding: 0 0 0.5rem 0;
-    margin: 0;
-    font-size: 1.5rem;
-    color: #a90057;
+.left {
+    left: 0;
+    text-align: right;
 }
-
-#librarybookheader H2 {
-    padding: 0;
-    margin: 0;
-    font-size: 1.1rem;
+.left div{
+    padding-right: 3rem;
 }
-
-#librarybookheader section {
-    padding: 0 0 0.5rem 0;
-    margin: 0;
-    font-size: 0.7em;
+.right {
+    left: 50%;
+    }
+.right::after{
+    left: -11px;
 }
-
-#librarybookheader p {
-    padding: 0 1rem 1rem 0;
+.content{
+    padding: 16px 30px;
+    position: relative;
+    border-radius: 6px;
+    margin-top: -1.2rem;
+}
+.content p{
     margin: 0;
-    font-size: 0.9em;
+    font-size: 0.9rem;
+}
+.content h2{
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+.whereivebeen {
+    padding-bottom: 2rem;
+}
+#Contact{
+    background-color: #111;
+    height: 5rem;
 
 }
-
-
-.bookcontainerlibrary {
+.links img{
+    height: 3rem;
     padding: 1rem;
-    margin: 2rem auto;
-    width: 85%;
-    min-height: 20rem;
-    background-color: white;
-    box-shadow: 0px 0px 8px 1px #777;
-    position: sticky;
-    min-width: 35rem;
-    margin-top: -1rem;
-    height: auto;
-    
-
 }
-
-
-#librarybooksynopsis {
-    margin-top: 3.1rem;
+.links {
+    width: 100%;
+    margin: auto;
+}
+.links div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     float: left;
-    text-align: left;
-    position: absolute;
-    left: 15rem;
-    padding-right: 1rem;
-
-
-    
-}
-#librarybooksynopsis H1 {
-    padding: 0 0 0.5rem 0;
-    margin: 0;
-    font-size: 1.5rem;
-    color: #a90057;
 }
 
-#librarybooksynopsis H2 {
-    padding: 0;
-    margin: 0;
-    font-size: 1.1rem;
+
+#CoverVideo{
+    margin: auto;
+    width: 80%;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    margin-bottom: -2.25rem;
+    padding-left: 10%;
 }
 
-#librarybooksynopsis section {
-    padding: 0 0 0.5rem 0;
-    margin: 0;
-    font-size: 0.7em;
-}
 
-#librarybooksynopsis p {
-    padding: 0 1rem 1rem 0;
-    margin: 0;
-    font-size: 0.9em;
-
-}
-
-.bookcontainerlibrary img{
-    float: left;
-    height: 17rem;
-    margin-top: 1.5rem;
-}
