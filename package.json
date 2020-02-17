@@ -1,17 +1,28 @@
 {
-	"name" : "LeashedLeasha",
-	"Version" : "1.0.0",
-	"description" : "Backend stuff I dont really understand",
-	"scripts" : {
-		"start" : "node server.js"
-	},
-	"dependencies" : {
-		"Express" : "4.13.3"
-	},
-	"author" : "Leasha Goosen",
-	"license" : "ISC",
-
-	"engines" : {
-		"node" : "10.x"
-	}
+  "name": "Leashed-Leasha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Leasha Goosen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyLeasha/LeashedLeasha"
+  },
+  "engines": {
+    "engines": {
+      "node": "8.11.3",
+      "npm": "4.2.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyLeasha/LeashedLeasha.git"
+  },
+  "homepage": "https://github.com/MyLeasha/LeashedLeasha",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
