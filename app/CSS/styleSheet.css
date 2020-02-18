@@ -4,7 +4,26 @@ body {
 }
 head { 
     background-color: #222;
-}    
+}
+.contacttop {
+    width: 100%;
+}
+.contacttop section {
+    padding: 0.2rem;
+    width:30rem;
+    margin: auto;
+    height: 1.2rem;
+    background-color: #111;
+}
+.contacttop p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    color: white;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+}
 .topnav {
     background-color: #222;
     overflow: hidden;
