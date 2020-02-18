@@ -14,7 +14,7 @@ body {
     padding: 0;
     height: 3rem;
 }
-#contectdetailsheader section{
+.contectdetailsheader section{
     padding: 0.2rem;
     width:50rem;
     margin: auto;
