@@ -278,10 +278,10 @@ body {
 }
 .contectdetails {
     padding: 1rem;
-    width:16rem;
+    width:30rem;
     margin: auto;
 }
-.contectdetails section {
+.contectdetails p {
     display: block;
     margin-left: auto;
     margin-right: auto;
