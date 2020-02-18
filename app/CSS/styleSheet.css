@@ -2,21 +2,6 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
-.Topcontact {
-    background-color: #000;
-    height: 3rem;
-}
-.Topcontactcontainer div{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-}
-.contectdetails p {
-    font-size: 0.9rem;
-    Color: #ffffff;
-    padding-left: 1rem;
-}
 .topnav {
     background-color: #222;
     overflow: hidden;
@@ -255,6 +240,7 @@ body {
     width:23rem;
     margin: auto;
     height: 1.2rem;
+    background-color: #111;
 }
 .contectdetails p {
     display: block;
