@@ -276,7 +276,7 @@ body {
 .Showreel {
     width: 100%;
 }
-.contectdetails {
+.contectdetails section {
     padding: 1rem;
     width:250rem;
     margin: auto;
@@ -289,6 +289,5 @@ body {
     color: white;
     height: 2rem;
     font-size: 0.9rem;
-    padding: 1rem;
 }
 
