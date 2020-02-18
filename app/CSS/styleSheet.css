@@ -31,7 +31,7 @@ body {
     overflow: hidden;
     color: white;
     padding: 0;
-    padding-left: 2rem;
+    padding-left: 2.2rem;
     height: 2rem;
     margin: auto;
 }
@@ -272,7 +272,13 @@ body {
     margin-bottom: -2.25rem;
     padding-left: 0%;
 }
-iframe {
-    width: 70rem;
+#iframe {
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
 }
 
