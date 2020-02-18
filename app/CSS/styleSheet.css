@@ -76,7 +76,7 @@ body {
 }
 .headingcenter q{
     font-size: 190%;
-    left: 3rem;
+    padding-left: 8rem;
 }
 .headingcenter p{
     font-size: 90%;
@@ -286,9 +286,12 @@ body {
     margin-right: auto;
     float: left;
     color: white;
+    height: 2rem;
+    font-size: 0.9rem;
 }
 .contactseperator {
     width: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    background-color: #ffffff;
 }
