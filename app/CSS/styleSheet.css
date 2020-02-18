@@ -30,6 +30,10 @@ body {
     height: 2rem;
     margin: auto;
 }
+.navinterior{
+    width: 8rem;
+    margin: auto;
+}
 .topnav a{
     color: white;
     margin: auto;
