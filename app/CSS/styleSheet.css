@@ -275,4 +275,8 @@ body {
 .Showreel {
     width: 100%;
 }
-
+.contectdetails {
+    padding: 1rem;
+    width:20rem;
+    margin: auto;
+}
