@@ -278,25 +278,16 @@ body {
 }
 .contectdetails {
     padding: 1rem;
-    width:40rem;
+    width:16rem;
     margin: auto;
 }
 .contectdetails section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
     float: left;
     color: white;
     height: 2rem;
     font-size: 0.9rem;
 }
-.contectdetails div {
-    width: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: #ffffff;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
+
