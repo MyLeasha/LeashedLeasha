@@ -21,6 +21,10 @@ body {
     padding: 1rem;
     padding-left: 2rem;
 }
+.headertitleinterior{
+    width: 6rem;    
+    margin: auto;
+}
 .topnav {
     background-color: #222;
     overflow: hidden;
@@ -248,7 +252,7 @@ body {
     padding: 1rem;
 }
 .links {
-    width: 15rem;
+    width: 10rem;
     margin: auto;
 }
 .links div{
