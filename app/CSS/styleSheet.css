@@ -81,7 +81,7 @@ body {
 .headingcenter p{
     font-size: 90%;
     padding-left: 30rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     margin-top: 0rem;
 
 }
@@ -278,7 +278,7 @@ body {
 }
 .contectdetails {
     padding: 1rem;
-    width:20rem;
+    width:40rem;
     margin: auto;
 }
 .contectdetails section {
@@ -293,7 +293,7 @@ body {
     font-size: 0.9rem;
 }
 .contectdetails div {
-    width: 16rem;
+    width: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     background-color: #ffffff;
