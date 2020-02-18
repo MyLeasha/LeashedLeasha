@@ -244,27 +244,6 @@ body {
 .whereivebeen {
     padding-bottom: 2rem;
 }
-#Contact{
-    background-color: #111;
-    height: 8rem;
-
-}
-.links img{
-    height: 3rem;
-    padding: 1rem;
-}
-.links {
-    width: 11rem;
-    margin: auto;
-}
-.links div{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-}
-
-
 #CoverVideo{
     margin: auto;
     width: 100%;
@@ -276,11 +255,15 @@ body {
 .Showreel {
     width: 100%;
 }
+#Contact{
+    background-color: #111;
+    height: 7rem;
+}
 .contectdetails section {
-    padding: 1rem;
+    padding: 0.5rem;
     width:23rem;
     margin: auto;
-    height: 2rem;
+    height: 1.2rem;
 }
 .contectdetails p {
     display: block;
@@ -291,4 +274,17 @@ body {
     font-size: 0.9rem;
     padding-left: 1rem;
 }
-
+.links img{
+    height: 3rem;
+    padding: 0.5rem;
+}
+.links {
+    width: 11rem;
+    margin: auto;
+}
+.links div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
