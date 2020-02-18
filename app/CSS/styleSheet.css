@@ -14,7 +14,7 @@ head {
     width:28rem;
     margin: auto;
     height: 3rem;
-    background-color: #111;
+    background-color: #222;
 }
 .contacttop p {
     display: block;
@@ -254,7 +254,7 @@ head {
     width: 100%;
 }
 #Contact{
-    background-color: #111;
+    background-color: #222;
     height: 7rem;
 }
 .contectdetails {
@@ -265,7 +265,7 @@ head {
     width:30rem;
     margin: auto;
     height: 1.2rem;
-    background-color: #111;
+    background-color: #222;
 }
 .contectdetails p {
     display: block;
