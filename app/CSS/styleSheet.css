@@ -1,12 +1,14 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #222;
 }
 head { 
     background-color: #222;
 }
 .contacttop {
     width: 100%;
+    background-color: #222;
 }
 .contacttop section {
     padding: 0.2rem;
