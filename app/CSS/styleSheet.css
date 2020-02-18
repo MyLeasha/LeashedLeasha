@@ -262,5 +262,7 @@ body {
     margin-bottom: -2.25rem;
     padding-left: 10%;
 }
-
+iframe {
+    width: 80%;
+}
 
