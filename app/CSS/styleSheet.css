@@ -12,9 +12,9 @@ body {
     margin-right: auto;
     float: left;
 }
-.contectdetails div p {
+.contectdetails p {
     font-size: 0.9rem;
-    font-color: #ffffff;
+    Color: #ffffff;
     padding-left: 1rem;
 }
 .topnav {
