@@ -246,7 +246,7 @@ body {
 }
 #Contact{
     background-color: #111;
-    height: 10rem;
+    height: 8rem;
 
 }
 .links img{
@@ -285,10 +285,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
     float: left;
     color: white;
     height: 2rem;
     font-size: 0.9rem;
+    padding: 1rem;
 }
 
