@@ -71,6 +71,7 @@ head {
     transform: translate(-50%, -50%);
     color: white;
     margin: auto;
+    text-shadow: 1px 1px 2px black;
 }
 .headingcenter q{
     font-size: 190%;
