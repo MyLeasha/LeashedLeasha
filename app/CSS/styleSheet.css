@@ -285,8 +285,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     float: left;
     color: white;
     height: 2rem;
@@ -294,8 +294,8 @@ body {
 }
 .contectdetails div {
     width: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: #ffffff;
     margin-left: 1rem;
     margin-right: 1rem;
