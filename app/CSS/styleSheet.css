@@ -11,7 +11,7 @@ head {
     background-color: #111;
 }
 .contacttop section {
-    padding: 0.2rem;
+    padding: 2%;
     width:28rem;
     margin: auto;
     height: 3rem;
@@ -24,7 +24,7 @@ head {
     float: left;
     color: white;
     font-size: 0.9rem;
-    padding-left: 1rem;
+    padding-left: 1%;
 }
 .topnav {
     background-color: #222;
@@ -263,7 +263,7 @@ head {
     width: 100%;
 }
 .contectdetails section {
-    padding: 0.2rem;
+    padding: 2%;
     width:30rem;
     margin: auto;
     height: 1.2rem;
@@ -276,7 +276,7 @@ head {
     float: left;
     color: white;
     font-size: 0.9rem;
-    padding-left: 1rem;
+    padding-left: 1%;
 }
 .links img{
     height: 2.5rem;
