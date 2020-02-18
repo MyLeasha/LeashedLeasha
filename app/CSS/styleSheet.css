@@ -2,7 +2,12 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
-
+.headertitle {
+    font-family: sans-serif;
+    background-color: #000;
+    background-size: cover;
+    height: 3rem;
+}
 .contectdetailsheader section{
     padding: 0.2rem;
     width:50rem;
