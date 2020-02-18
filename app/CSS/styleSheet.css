@@ -14,17 +14,20 @@ body {
     padding: 0;
     height: 3rem;
 }
-#headertitle h1{
-    text-align: center;
-    margin: 0;
+#contectdetailsheader section{
+    padding: 0.2rem;
+    width:30rem;
+    margin: auto;
+    height: 1.2rem;
+}
+.contectdetails p {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
-    padding-left: 2rem;
-}
-.headertitleinterior{
-    width: 12rem;    
-    margin: auto;
+    float: left;
+    color: white;
+    font-size: 0.9rem;
+    padding-left: 1rem;
 }
 .topnav {
     background-color: #222;
