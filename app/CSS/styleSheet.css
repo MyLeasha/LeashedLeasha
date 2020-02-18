@@ -278,7 +278,7 @@ body {
 }
 .contectdetails section {
     padding: 1rem;
-    width:250rem;
+    width:25rem;
     margin: auto;
 }
 .contectdetails p {
@@ -289,5 +289,6 @@ body {
     color: white;
     height: 2rem;
     font-size: 0.9rem;
+    padding-left: 1rem;
 }
 
